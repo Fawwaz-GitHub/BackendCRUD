@@ -12,7 +12,7 @@ const mongoose = require('mongoose')
 /**
  * Get port from environment and store in Express.
  */
-const url = `mongodb+srv://FawwazMB:Alchemy2020@cluster0.kr2vu.mongodb.net/crudapplication?retryWrites=true&w=majority`
+const url = `mongodb+srv://FawwazMB:{password}@cluster0.kr2vu.mongodb.net/crudapplication?retryWrites=true&w=majority`
 
 var port = normalizePort(process.env.PORT || '11000');
 app.set('port', port);
